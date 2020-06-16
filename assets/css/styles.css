@@ -1,0 +1,170 @@
+body, h1, h2, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a { 
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3em;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.4;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #eee;
+}
+
+header {
+  padding: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.row {
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.country {
+  flex: 2 1 200px;
+  margin: 20px 10px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.country:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: 0.5s;
+  text-shadow: black 3px 4px 1px;
+}
+
+.country p {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8em;
+}
+
+.atlanta {
+  background-image: url("../images/atlanta.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.austin {
+  background-image: url("../images/austin.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.banglore {
+  background-image: url("../images/bangalore.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.berlin {
+  background-image: url("../images/berlin.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.boston {
+  background-image: url("../images/boston.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.boulder {
+  background-image: url("../images/boulder.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.chicago {
+  background-image: url("../images/chicago.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.hong-kong {
+  background-image: url("../images/hong-kong.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.houston {
+  background-image: url("../images/houston.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.london {
+  background-image: url("../images/london.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.los-angeles {
+  background-image: url("../images/los-angeles.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.melbourne {
+  background-image: url("../images/melbourne.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
+
+
